@@ -13,7 +13,6 @@
         &-wrapper{
             padding: 50px;
             height: 50%;
-            // background-color:red;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -30,8 +29,10 @@
     &__descr{
         height: 50px;
         overflow: hidden;
+        text-align: center;
 
         &-wrapper{
+            text-align: center;
             height: 100%;
             animation: move 10s ease-in-out infinite alternate;
         }
@@ -69,15 +70,11 @@
 
 
     &__right{
-        position: relative;
         flex: 1;
-        // display: flex;
+        position: relative;
 
         &-img{
             position: absolute;
-            top: 14px;
-            left: 25%;
-            transform: translateX(-25%);
             width: 100%;
             height: 100%;
             object-fit: contain;
@@ -103,61 +100,17 @@
         &__left{
     
             &-wrapper{
-                padding: 20px;
-                height: 50%;
-                // background-color:red;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-            &-title{
-                font-size: 20px;
-                font-weight: 300;
+                padding: 10px;
+                align-items: center;
+                justify-content: center;
                 text-align: center;
-            }
-            &-name{
-                margin-top: 10px;
-                font-size: 50px;
-                text-align: center;
+                height: 100%;
             }
             &-about{
                 display: none;
             }
         }
 
-    
-    
-    
-    
-    
-    
-    
-        &__right{
-            position: relative;
-            flex: 1;
-            // display: flex;
-    
-            &-img{
-                position: absolute;
-                top: 14px;
-                left: 25%;
-                transform: translateX(-25%);
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-            }
-    
-            &-bg{
-                position: absolute;
-                top: 0;
-                right: 0;
-     
-                clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-                background-color:rgb(18, 201, 79);
-                width: 100%;
-                height: 100%;
-            }
-        }
     }
     
 }

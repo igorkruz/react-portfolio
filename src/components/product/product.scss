@@ -1,10 +1,10 @@
 .p{
 width: 30%;
 height: 40vh;
-border: 1px solid rgb(206, 206, 206);
+border: 2px solid rgb(206, 206, 206);
 margin: 20px 10px;
 text-align: center;
-border-radius: 10px 10px 0 0 ;
+border-radius: 10px 10px 0px 0px ;
 overflow: hidden;
 
     &__browser{
@@ -15,7 +15,6 @@ overflow: hidden;
         display: flex;
         align-items: center;
 
-        padding-left: 5px;
 
         &-circle{
             width: 5px;
@@ -28,8 +27,17 @@ overflow: hidden;
     &__img{
         width: 100%;
         transition: 10s all ease;
+        
         &:hover{
             transform: translateY(-80%);
         }
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .p {
+      width: 40%;
+      height: 20vh;
+    }
+  }

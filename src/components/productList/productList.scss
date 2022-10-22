@@ -16,3 +16,18 @@
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .pl {
+      padding: 10px;
+    
+      &__text {
+      width: 100%;
+    
+        &-descr {
+        display: none;
+        }
+    }
+  }
+}

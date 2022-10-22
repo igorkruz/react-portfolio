@@ -12,15 +12,15 @@ const Intro = () => {
                     <div className="intro__descr">
                         <div className="intro__descr-wrapper">
                             <div className="intro__descr-item">Web Developer</div>
-                            <div className="intro__descr-item">Front-End</div>
-                            <div className="intro__descr-item">Java-Script/React</div>
-                            <div className="intro__descr-item">designer</div>
-                            <div className="intro__descr-item">designer</div>
+                            <div className="intro__descr-item">HTML5/CSS3</div>
+                            <div className="intro__descr-item">JavaScript</div>
+                            <div className="intro__descr-item">React</div>
+                            <div className="intro__descr-item">Redux</div>
                         </div>
                     </div>
-                    <div className="intro__left-about">
+                    <p className="intro__left-about">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos harum eum labore molestias a amet, aliquam vel praesentium porro in, delectus magni, quaerat accusantium? Assumenda dolor quidem nam nulla recusandae.
-                    </div>
+                    </p>
                 </div>
             </div>
 
