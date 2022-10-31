@@ -69,6 +69,10 @@
 
       &__right{
         padding: 20px;
+
+        &-descr{
+            display: none;
+        }
       }
 
       &__award{

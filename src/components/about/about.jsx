@@ -16,7 +16,7 @@ const About = () =>{
             <div className="about__right">
                 <h1 className="about__right-title">Aobut Me</h1>
                 <p className="about__right-sub">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, molestiae.</p>
-                <p className="abou__right-descr">
+                <p className="about__right-descr">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem blanditiis possimus, dolor soluta quis, modi nesciunt iste pariatur veniam a esse nemo inventore assumenda vitae voluptate sequi distinctio deleniti ipsam?
                 </p>
 

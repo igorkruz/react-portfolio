@@ -21,6 +21,7 @@
 @media screen and (max-width: 480px) {
     .pl {
       padding: 10px;
+      overflow: hidden;
     
       &__text {
       width: 100%;
@@ -28,6 +29,10 @@
         &-descr {
         display: none;
         }
+    }
+    &__list{
+      min-height: 500px;
+    
     }
   }
 }
